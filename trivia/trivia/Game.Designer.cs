@@ -38,6 +38,8 @@
             checkBox3 = new CheckBox();
             checkBox4 = new CheckBox();
             button1 = new Button();
+            label2 = new Label();
+            timer3 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // timer1
@@ -144,12 +146,24 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Black", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.ButtonFace;
+            label2.Location = new Point(0, 402);
+            label2.Name = "label2";
+            label2.Size = new Size(169, 50);
+            label2.TabIndex = 8;
+            label2.Text = "Punctaj:";
+            // 
             // Game
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(checkBox4);
             Controls.Add(checkBox3);
@@ -176,5 +190,7 @@
         private CheckBox checkBox3;
         private CheckBox checkBox4;
         private Button button1;
+        private Label label2;
+        private System.Windows.Forms.Timer timer3;
     }
 }

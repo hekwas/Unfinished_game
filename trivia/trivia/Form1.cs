@@ -12,7 +12,7 @@ namespace trivia
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\admin\\Documents\\Trivia_Login_Data.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Delia Dabelea\\Documents\\LoginData.mdf\";Integrated Security=True;Connect Timeout=30");
 
         private void Login_Click(object sender, EventArgs e)
         {
@@ -21,7 +21,7 @@ namespace trivia
             password = txtbx_password.Text;
             try
             {
-                string querry = "SELECT * FROM [dbo].[Table] WHERE CONVERT(VARCHAR, username) ='" + username + "' AND CONVERT(VARCHAR, password) = '" + password + "'";
+                string querry = "SELECT * FROM [dbo].[Table] WHERE CONVERT(VARCHAR, Username) ='" + username + "' AND CONVERT(VARCHAR, PassWord) = '" + password + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(querry, connection);
                 DataTable dtable = new DataTable();
                 sda.Fill(dtable);
@@ -64,6 +64,11 @@ namespace trivia
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtbx_user_TextChanged(object sender, EventArgs e)
         {
 
         }

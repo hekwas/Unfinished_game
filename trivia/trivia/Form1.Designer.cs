@@ -58,6 +58,7 @@
             txtbx_user.Name = "txtbx_user";
             txtbx_user.Size = new Size(383, 40);
             txtbx_user.TabIndex = 1;
+            txtbx_user.TextChanged += txtbx_user_TextChanged;
             // 
             // txtbx_password
             // 

@@ -470,23 +470,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Delia Dabelea\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\App C#\\trivia\\trivia\\trivia.csproj",
+      "projectUniqueName": "C:\\Users\\Delia Dabelea\\Desktop\\Unfinished_game-main\\trivia\\trivia\\trivia.csproj",
       "projectName": "trivia",
-      "projectPath": "C:\\Users\\admin\\Desktop\\App C#\\trivia\\trivia\\trivia.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\App C#\\trivia\\trivia\\obj\\",
+      "projectPath": "C:\\Users\\Delia Dabelea\\Desktop\\Unfinished_game-main\\trivia\\trivia\\trivia.csproj",
+      "packagesPath": "C:\\Users\\Delia Dabelea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Delia Dabelea\\Desktop\\Unfinished_game-main\\trivia\\trivia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Delia Dabelea\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -537,7 +537,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
